@@ -1,6 +1,6 @@
 # outpost-mcp
 
-[![npm version](https://img.shields.io/npm/v/outpost-mcp)](https://www.npmjs.com/package/outpost-mcp)
+[![npm version](https://img.shields.io/npm/v/%40outpost%2Fmcp-server)](https://www.npmjs.com/package/@outpost/mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **MCP server for [Outpost](https://outpostapi.dev)** — publish to X (Twitter), LinkedIn, Reddit, Instagram, Bluesky, and Threads directly from Claude, Cursor, or any AI agent.
@@ -20,7 +20,7 @@ Add this to your `~/.claude_desktop_config.json`:
   "mcpServers": {
     "outpost": {
       "command": "npx",
-      "args": ["-y", "outpost-mcp"],
+      "args": ["-y", "@outpost/mcp-server"],
       "env": {
         "OUTPOST_API_KEY": "your-api-key-here"
       }
@@ -38,7 +38,7 @@ Restart Claude Desktop — the Outpost tools will appear automatically.
   "mcpServers": {
     "outpost": {
       "command": "npx",
-      "args": ["-y", "outpost-mcp"],
+      "args": ["-y", "@outpost/mcp-server"],
       "env": {
         "OUTPOST_API_KEY": "your-api-key-here",
         "OUTPOST_API_URL": "https://your-outpost-instance.com"

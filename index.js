@@ -17,7 +17,7 @@
  *   OUTPOST_API_URL  — optional (default: https://api.outpostapi.dev)
  *
  * Usage:
- *   npx outpost-mcp
+ *   npx @outpost/mcp-server
  *
  * © 2024 Hibernyte — MIT License
  */
